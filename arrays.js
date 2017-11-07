@@ -6,7 +6,7 @@ function addElementToBeginningOfArray(array, element){
   return newArray;
 }
 
-function destructivelyAddElementToBeginningOfArray(array, element){
-  [element, ...array];
+function destructivelyAddElementToBeginningOfArray(newArray, element){
+  [element, ...newArray];
   return newArray;
 }
